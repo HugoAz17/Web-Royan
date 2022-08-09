@@ -1,0 +1,47 @@
+
+:root{
+    --title_color: #483D8B;
+}
+  
+
+/* #nav-bar{
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+ul{
+    border: 2px solid black;
+
+    list-style-type: none;
+    font-size: 25px;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 80vh;
+    width: 20vw;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+} */
+
+/* #title{
+    font-size: 2em;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: var(--title_color);
+} */
+
+body{
+    background-image: url("static/images/bg-royan.jpeg");
+}
+
+#bg-royan{
+    height: auto;
+    width: auto;
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <title>Main Page</title>
+        <meta charset="UTF-8">
+        <meta name="description" content="Insert description here...">
+        <meta name="keywords" content="Insert keywords here...">
+        <meta name="author" content="Hugo Azazgour">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+        <style>
+
+            *{
+                margin: 0px;
+                padding: 0px;
+                font-family: sans-serif;
+            }
+
+        </style>
+    </head>
+
+    <body>
+
+        <div id="title">Royan 2K22</div>
+        <img id="bg-royan" src="{{ url_for('static', filename='images/bg-royan.jpeg') }}"/>
+
+    </body>
+
+</html>
